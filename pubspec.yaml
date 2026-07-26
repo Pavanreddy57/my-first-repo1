@@ -1,0 +1,45 @@
+name: hermes
+description: "Hermes — Personal Development Operating System"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.12.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_fonts: ^6.2.1
+  flutter_staggered_animations: ^1.1.1
+  isar: ^3.1.0+1
+  isar_flutter_libs: ^3.1.0+1
+  flutter_riverpod: ^3.3.2
+  path_provider: ^2.1.6
+  uuid: ^4.5.3
+  http: ^1.6.0
+  html: ^0.15.6
+  flutter_markdown: ^0.7.3
+  archive: ^3.6.1
+  file_picker: ^8.0.3
+  html2md: ^1.3.2
+  crypto: ^3.0.7
+  flutter_math_fork: ^0.7.4
+  intl: ^0.20.3
+  shared_preferences: ^2.5.5
+  share_plus: ^12.0.2
+  url_launcher: ^6.3.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.14.4
+
+flutter:
+  uses-material-design: true
+
+flutter_launcher_icons:
+  android: true
+  ios: false
+  image_path: "assets/icon/icon.png"
+  min_sdk_android: 21
